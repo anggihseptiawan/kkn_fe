@@ -146,7 +146,26 @@ span.first-line{
 	background-color: rgba(255, 255, 255, 0.9);
 	
 }
-
+section.auth .regis_form{
+	background-color: white;
+    border-radius: 5px;
+    margin-right: unset;
+    margin-left: unset;
+    -webkit-box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+    overflow: hidden;	
+}
+.login-container{
+	background-color: rgba(255, 255, 255, 0.9);
+	margin: 0 auto;
+	}
+.col-md-6{
+	padding:0 ;
+}
+.bg-login-form{
+	background: rgba(58, 170, 222,0.8)url(../asset/img/logo3.png);
+	background-size: cover;
+}
 .navbar-blog{
 	background: rgba(255,255,255,255);
 	/* position: fixed; */
@@ -178,14 +197,12 @@ a.link {
 	background-color: rgba(255, 255, 255);
    
 }
-
-.dropdown-menu-full {
-    width: 100% !important;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: -($spacer * .25 * 3);
+.nav-span{
+	display: block;
+	font-size: 25px;
+	padding: 0 0rem;
 }
+
 
 a:hover{
     color: #3aaade;
@@ -269,6 +286,39 @@ input[type="text"] {
 }
 
 
+.login-form{
+    padding: 5%;
+    
+}
+.login-form h3{
+    text-align: center;
+    color: #333;
+}
+
+
+.btnSubmit
+{
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(58, 170, 222,0.8);
+}
+.seablue{
+	color: rgba(58, 170, 222,0.8);
+}
+.login-form .ForgetPwd ,.BtnRegister{
+	background-color: white;
+	border-radius: 1rem;
+	border: solid rgba(58, 170, 222,0.8);
+    color: rgba(58, 170, 222,0.8);
+    font-weight: 600;
+    text-decoration: none;
+}
 
 footer{	
 	padding: 1.5rem 0;
@@ -291,7 +341,6 @@ footer{
     padding-left: 10px;
     line-height: 50px;
     color: #fff;
-    position: absolute;
     bottom: 0px;
 }
 
@@ -312,14 +361,12 @@ footer{
 .widget{
 	margin: 20px 20px 10px;
 }
-.social{
-	
-}
 
 
 
 
 @media(max-width: 768px){
+
 	.logoku{
 		width: 5%;
 	}
@@ -336,6 +383,7 @@ footer{
 	padding:0.5rem;
 	}
 	
+
 	.banner{
 		padding:1rem;
 	}
