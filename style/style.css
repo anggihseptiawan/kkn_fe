@@ -203,13 +203,6 @@ a.link {
 	padding: 0 0rem;
 }
 
-.dropdown-menu-full {
-    width: 100% !important;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: -($spacer * .25 * 3);
-}
 
 a:hover{
     color: #3aaade;
@@ -305,7 +298,6 @@ input[type="text"] {
 
 .btnSubmit
 {
-    width: 50%;
     border-radius: 1rem;
     padding: 1.5%;
     border: none;
@@ -316,8 +308,13 @@ input[type="text"] {
     color: #fff;
     background-color: rgba(58, 170, 222,0.8);
 }
-
-.login-form .ForgetPwd{
+.seablue{
+	color: rgba(58, 170, 222,0.8);
+}
+.login-form .ForgetPwd ,.BtnRegister{
+	background-color: white;
+	border-radius: 1rem;
+	border: solid rgba(58, 170, 222,0.8);
     color: rgba(58, 170, 222,0.8);
     font-weight: 600;
     text-decoration: none;

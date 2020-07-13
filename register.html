@@ -51,53 +51,62 @@
 				<div class="row  mt-5 justify-content-center">
 					<div class="col-md-10">
 						<div class="row login-container rounded ">
-							<!-- for background image sebelah kiri -->
-							<div class="col-lg-6 bg-login-form rounded text-center">
-								
-							</div>
-							<!-- <div class="col-md-6 login-form text-center">
+							<div class="col-lg-6 login-form ">
 								<div class="widget-title-outer">
-									<h3 class="widget-title">CIKOLELET</h3>
+									<h3 class="widget-title">Informasi Diri</h3>
 								</div>
-								<form class="col-md-12">
-									<div class=" ">
-										<input type="text" class="form-control" placeholder="Your Email *" value="" />
+								<form class="user" method="post" >                                                      
+									<div class="form-group">
+										<input type="text" class="form-control form-control-user " id="nik" name="nik" placeholder="NIK" value="" pattern="[0-9]{14}" required="true">
 									</div>
 									<div class="form-group">
-										<input type="password" class="form-control" placeholder="Your Password *" value="" />
+										<input type="text" class="form-control form-control-user " id="nama" name="nama" placeholder="Nama Lengkap" value="" required="true">
 									</div>
 									<div class="form-group">
-										<input type="submit" class="btnSubmit" value="Login" />
+										<select class="form-control form-control-user " id="jk" name="jk" required="true">
+											<option value="0">Pilih Jenis Kelamin</option>
+											<option value="laki-laki">Laki-laki</option>											
+											<option value="perempuan">Perempuan</option>
+										</select>										
 									</div>
 									<div class="form-group">
-										<a href="#" class="ForgetPwd">Forget Password?</a>
+										<input type="text" class="form-control form-control-user " id="tl" name="tl" placeholder="Tempat Lahir" value="" required="true">
 									</div>
-								</form>
-								
-							</div> -->
-							<div class="col-lg-6 login-form text-center">
-								<div class="widget-title-outer">
-									<h3 class="widget-title">CIKOLELET</h3>
-								</div>
-								<form class="user" method="post" action="http://54.255.141.17/arminadaily/public/auth/login">
-									<input type="hidden" name="_method" value="post">                            <input type="hidden" name="_token" value="eBCahbupFSLiOvvevktH460LV39hW3rXRWUJW2P1">                            <div class="form-group">
-										<input type="email" class="form-control form-control-user " id="email" name="email" placeholder="Email" value="" required="">
+									<div class="form-group">
+										<input type="date" class="form-control form-control-user " id="tgl" name="tgl" placeholder="Tanggal Lahir" value="" required="true">
 									</div>
-									<div class="form-group mb-4">
-										<input type="password" class="form-control form-control-user " id="password" name="password" value="" placeholder="Password" required="">
-									</div>
-								
-									<button type="submit" class="btn btn-green btn-block text-white mt-3">
-										Login
-									</button>
 									
 									<div class="form-group">
-										<input type="submit" class="btnSubmit" value="Login" />
-									</div>
-									<div class="form-group">
-										<a href="#" class="ForgetPwd">Forget Password?</a>
+										<textarea type="ttex" class="form-control form-control-user " id="alamat" name="alamat" placeholder="Alamat" value="" required="true"></textarea>
 									</div>
 								</form>
+								
+							</div>
+							<div class="col-lg-6 login-form">
+								<div class="widget-title-outer">
+									<h3 class="widget-title">Data Akun</h3>
+								</div>
+								<form class="user" method="post" > 
+									<div class="form-group">
+										<input type="text" class="form-control form-control-user " id="username" name="username" placeholder="User Name" value="" required="true">
+									</div>
+									<div class="form-group">
+										<input type="tel" class="form-control form-control-user " id="hp" name="hp" placeholder="Nomer Handphone" value="" pattern="[0-9]{12} " required="">
+									</div>                                                     
+									<div class="form-group">
+										<input type="email" class="form-control form-control-user " id="email" name="email" placeholder="Email" value="" required="">
+									</div>
+									<div class="form-group ">
+										<input type="password" class="form-control form-control-user " id="password" name="password" value="" placeholder="Password" required="">
+									</div>	
+									<div class="form-group ">
+										<input type="password" class="form-control form-control-user " id="repassword" name="repassword" value="" placeholder="Konfirmasi Password" required="">
+									</div>									
+									<div class="form-group">
+										<input type="submit" class="btnSubmit w-100" value="Daftar" />
+									</div>
+								</form>
+								<div class="text-center">Sudah punya akun, Silahkan <a class="bolded" href="">Klik disini</a> </div>
 								
 							</div>
 						</div>
