@@ -197,6 +197,18 @@ a.link {
 	background-color: rgba(255, 255, 255);
    
 }
+.nav-pills .nav-links {
+    border-radius: .25rem;
+}
+.nav-links {
+    display: block;
+    padding: .5rem 1rem;
+}
+.nav-pills .nav-links.active, .nav-pills .show>.nav-links{
+	color: rgba(255, 255, 255);
+	background-color: #3aaade;
+   
+}
 .nav-span{
 	display: block;
 	font-size: 25px;
