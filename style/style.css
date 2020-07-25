@@ -286,11 +286,11 @@ input[type="text"] {
 }
 
 
-.login-form{
+.login-form, .profil-form{
     padding: 5%;
     
 }
-.login-form h3{
+.login-form h3, .profil-form h3{
     text-align: center;
     color: #333;
 }
@@ -303,7 +303,7 @@ input[type="text"] {
     border: none;
     cursor: pointer;
 }
-.login-form .btnSubmit{
+.login-form .btnSubmit, .btnSubmit{
     font-weight: 600;
     color: #fff;
     background-color: rgba(58, 170, 222,0.8);
