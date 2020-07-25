@@ -39,7 +39,7 @@ h4{
 }
 
 h5{
-	background: rgba(0,0,0,0.7);
+	
 	font-family: var(--serif-font);
 	font-weight: 600;
 	padding: 0.5rem;
@@ -174,6 +174,23 @@ section.auth .regis_form{
 
 }
 
+.text-primaries{
+	color: #3aaade;
+}
+.text-primaries :hover{
+	color: #000000;
+}
+.bg-primaries{
+ background-color: #3aaade;
+ color: white;
+}
+ a i{
+	background-color: #3aaade;
+	color: white;
+}
+ a .btn-collapse :hover{
+	color: #000000;
+}
 .link{
 	color: white;
 }
