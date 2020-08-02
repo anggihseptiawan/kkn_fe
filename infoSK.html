@@ -22,7 +22,7 @@
 	 
 </head>
 <body>
-	<header class="container-fluid ">
+	<div class="container-fluid ">
 		<div class="row">
 			<nav class="col-md-12 navbar navbar-blog  navbar-expand-lg navbar-light " id="myHeader">
 				<img class="logoku" src="asset/img/logo2.png" alt="Logo Cikolelet" >
@@ -36,17 +36,58 @@
 				<div class="collapse navbar-collapse" id="menux">
 					<ul class="nav nav-pills  flex-column flex-lg-row  ml-auto" id="pills-tab" role="tablist">
 						<li class="nav-item">
-							<a class="nav-link  bolded" href="#" >Beranda</a>
+							<a class="nav-link  bolded" id="pills-tab-1" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-home" aria-selected="true">Beranda</a>
 						</li>
-
 						<li class="nav-item">
-							<a class="nav-link  bolded" href="#" >Surat Keterangan</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link  bolded" href="#" >Surat Rekomendasi</a>
-						</li>
-						
+							
+							 <div class="dropdown show">
+								<a class="nav-link  bolded dropdown-toggle" href="#"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Surat Keterangan
+								</a>
+							  
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									
+										<ul class="list-unstyled">
+										<li class="title">Layanan Surat Keterangan</li>
+										<li><a href="#">Keterangan Penduduk</a></li>
+										<li><a href="#">Keterangan Usaha</a></li>
+										<li><a href="#">Keterangan Pindah</a></li>
+										<li><a href="#">Keterangan Kematian</a></li>
+										<li><a href="#">Keterangan Ahli Waris</a></li>
+										<li><a href="#">Keterangan Berkelakuan Baik</a></li>
+										<li><a href="#">Keterangan Tidak Mampu</a></li>
+										<li><a href="#">Keterangan Tanah</a></li>
+										<li><a href="#">Keterangan Domisili</a></li>
+										</ul>		
+								
+														
+								
+								</div>
+							  </div> 
+							  <div class="dropdown">
+								  
+							  </div>
+						 </li> 
+						 <li class="nav-item">
+							<div class="dropdown show">
+							   <a class="nav-link  bolded dropdown-toggle" href="#"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								   Surat Rekomendasi
+							   </a>
+							   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+									<ul class="list-unstyled">
+										<li class="title">Layanan Surat Rekomendasi</li>
+										<li><a href="#">Pengurusan KK</a></li>
+										<li><a href="#">Pengurusan KTP</a></li>
+										<li><a href="#">Pengurusan Akta Lahir</a></li>		
+										<li><a href="#">Pengurusan Akta Nikah</a></li>		
+										<li><a href="#">Pengurusan IMB</a></li>
+									</ul>	
+							   </div>
+							 </div> 
+							 <div class="dropdown">
+								 
+							 </div>
+						</li> 
 											
 						<!-- Khusus user yang login -->
 						<li class="nav-item">
@@ -58,7 +99,8 @@
 									<ul class="list-unstyled">									
 										<li><a href="#">Profil Pengguna</a></li>
 										<li><a href="#">Log out</a></li>
-										<li><a href="#">Status Pengajuan Surat </a></li>
+										<li><a href="#">Status Pengajuan Surat Keterangan</a></li>
+										<li><a href="#">Status Pengajuan Surat Rekomendasi</a></li>	
 									</ul>	
 							   </div>
 							 </div> 
@@ -67,17 +109,17 @@
 						<!-- Khusus user yang login -->
 						<!-- Link Login dan daftar -->
 						<li class="nav-item">
-							<a class=" nav-link " href="#" >Masuk</a>
+							<a class=" nav-link " id="pills-tab-4" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-about" aria-selected="false">Masuk</a>
 						</li>
 						<li class="nav-item">
-							<a class=" nav-link "href="#">Daftar</a>
+							<a class=" nav-link " id="pills-tab-4" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-about" aria-selected="false">Daftar</a>
 						</li>
 						<!-- Link Login dan daftar -->
 					</ul>
 				</div>	
 			</nav>
 		</div>
-	</header>
+	</div>
 	<main>
 		<div class="container-fluid mt-3 ">
 			<div class="card shadow mb-4 mt-4">
@@ -446,11 +488,33 @@
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">Mendatangi kantor kelurahan (Kepala Desa), Setelah Mendapatkan surat Pengantar RT RW, kemudian bawalah Surat Pengantar RT RW serta dengan berkas yang lainnya ke kantor kelurahan atau kepala desa. Di sana anda akan diminta untuk mengisi formulir pembuatan surat keterangan usaha. Setelah semua persyaratan anda serahkan maka anda tinggal menunggu SKU jadi.</td>
+													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">Bawa berkas ke kantor kecamatan, Setelah Surat Keterangan Usaha jadi maka langkah selanjutnya anda tinggal membawanya ke kantor kecamatan. SKU tersebut nantinya akan ditandatangani oleh camat dan distempel.</td>
+													<td data-title="Pelayanan">Isilah formulir permohonan Surat Keterangan Usaha pada template berkas yang telah didownload 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">6</td>
+													<td data-title="Pelayanan">Setelah diverifikasi Surat Keterangan Usaha tingkat kelurahan akan diterbitkan dan dapat dicetak
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">7</td>
+													<td data-title="Pelayanan"> Bawa berkas ke kantor kecamatan, Setelah Surat Keterangan Usaha jadi maka langkah selanjutnya anda tinggal membawanya ke kantor kecamatan. SKU tersebut nantinya akan ditandatangani oleh camat dan distempel.
+													</td>
 												</tr>
 											</tbody>
 										</table>
@@ -505,53 +569,18 @@
 												</tr>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
+													<td data-title="Persyaratan">Surat pengantar RT/RW di alamat baru 
+													</td>
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Persyaratan">Surat keterangan pindah dari Keluarahan asli</td>
-												</tr>
-												<tr>
-													<td data-title="No">3</td>
-													<td data-title="Persyaratan">KK dan KTP-el (asli dan fotokopi)</td>
-												</tr>
-												
-												<tr>
-													<td data-title="No"></td>
-													<td data-title="Persyaratan"><Strong>Persyaratan Pindah Datang Antarkecamatan</Strong></td>
-												</tr>
-												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
-												</tr>
-												<tr>
-													<td data-title="No">2</td>
-													<td data-title="Persyaratan">Surat Keterangan pindah dari Kelurahan Asal
+													<td data-title="Persyaratan">Surat keterangan pindah dari Disdukcapil dari alamat sebelumnya 
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Persyaratan">Surat Keterangan Pindah dari Kecamatan asal</td>
-												</tr>
-												<tr>
-													<td data-title="No">4</td>
-													<td data-title="Persyaratan">Surat KK dan KTP-el (asli dan fotocopy)</td>
-												</tr>
-												<tr>
-													<td data-title="No"></td>
-													<td data-title="Persyaratan"><strong>Persyaratan Pindah Datang Antarkota/Provinsi</strong></td>
-												</tr>
-												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
-												</tr>
-												<tr>
-													<td data-title="No">2</td>
-													<td data-title="Persyaratan">Surat Keterangan Pindah dari daerah asal</td>
-												</tr>
-												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Persyaratan">KTP-el (asli dan fotokopi)</td>
+													<td data-title="Persyaratan">Surat domisili beserta fotokopi KTP tetangga terdekat dengan rumah baru. Apabila pemohon menumpang di rumah orang atau saudara, maka harus menyertakan fotokopi KTP kepala rumah tangga pemilik rumah yang ditumpangi pemohon.
+													</td>
 												</tr>
 											</tbody>
 										</table>
@@ -570,15 +599,28 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
 												</tr>
 												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Isilah formulir permohonan pindah pada template berkas yang telah didownload 
+													</td>
 												</tr>
 												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Setelah diverifikasi SuratKeterangan Pindah tingkat kelurahan akan diterbitkan dan dapat dicetak
+													</td>
 												</tr>
 											</tbody>
 										</table>
@@ -681,19 +723,22 @@
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">Pemohon membawa surat pengantar (dari RT) kepada ketua RW untuk di tanda tangani/ di sahkan</td>
+													<td data-title="Pelayanan">Pemohon membawa surat pengantar (dari RT) kepada ketua RW untuk di tanda tangani di sahkan</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">Pemohon mendatangi kantor Keluarahan membawa berkas sessuai persyaratan dan mendapatkan surat kemantian</td>
+													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan dan mendapatkan surat kematian
+													</td>
 												</tr>
 												<tr>
 													<td data-title="No">4</td>
-													<td data-title="Pelayanan">Pemohon mendatangi Kecamatan membawa berkas sesuai persyaratan dan surat kematian dari keluarahan</td>
+													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													</td>
 												</tr>
 												<tr>
 													<td data-title="No">5</td>
-													<td data-title="Pelayanan">Pemohon membawa berkas sesuai persyaratan yang sudah ditandatangani ke Dinas kependudukan dan Pencatatan Sipil</td>
+													<td data-title="Pelayanan">Setelah diverifikasi Surat kematian akan diterbitkan dan dapat dicetak
+													</td>
 												</tr>
 												
 											</tbody>
@@ -745,12 +790,40 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Persyaratan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="Persyaratan">Surat permohonan yang menunjukkan keabsahan dokumen dan data (ditandatangani di atas materai Rp6.000)
+													</td>
 												</tr>
 												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Persyaratan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="No">2</td>
+													<td data-title="Persyaratan">Surat pengantar dari Ketua RT dan RW yang disesuaikan dengan data pada KTP
+													</td>
 												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Persyaratan">Surat kuasa jika pengurusan Surat Domisili diwakilkan dengan materai Rp6.000
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Persyaratan">Scan Kartu Tanda Penduduk (KTP) asli 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Persyaratan">Scan Kartu Keluarga (KK) asli 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">6</td>
+													<td data-title="Persyaratan">Pasfoto berukuran 3x4 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">7</td>
+													<td data-title="Persyaratan">Scan Akta Kelahiran Asli
+													</td>
+												</tr>
+												
 											
 											</tbody>
 										</table>
@@ -769,15 +842,434 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="Pelayanan">Datang ke rumah Ketua RT setempat untuk mendapatkan surat pengantar. Lalu, bawa ke Ketua RW untuk ditandatangani.
+													</td>
 												</tr>
 												<tr>
-													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
 												</tr>
 												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Isilah formulir permohonan Surat Keterangan Domisili pada template berkas yang telah didownload 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">6</td>
+													<td data-title="Pelayanan">Setelah diverifikasi Surat Keterangan Domisili akan diterbitkan dan dapat dicetak
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							  </div>
+						</div>
+					</div>
+					
+					<div class="card-header"  id="headingSeven">
+						<a class="text-primaries btn-icon-split" href="" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseOne">
+							<span class="icon">
+								  <i class="fas fa-arrow-right"></i>
+							</span>
+							<span class="text">Surat Keterangan Ahli Waris</span>
+						</a>
+					</div>
+					<div id="collapseSeven" class="collapse " aria-labelledby="headingSeven" data-parent="#accordion">
+						<div class="card-body">
+							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-links active" id="pills-rules-tab" data-toggle="pill" href="#pills-rules7" role="tab"
+									aria-controls="pills-home" aria-selected="true">Persyaratan</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-links" id="pills-pelayanan7-tab" data-toggle="pill" href="#pills-pelayanan7" role="tab"
+									aria-controls="pills-profile" aria-selected="false">Mekanisme Pelayanan</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="btn btn-success btn-icon-split ml-3">
+										<span class="icon text-white-50">
+										  <i class="fas fa-arrow-down"></i>
+										</span>
+										<span class="text">Unduh Template</span>
+									</a>
+								</li>
+							</ul>
+							  <div class="tab-content pt-2 pl-1" id="pills-tabContent">
+								<div class="tab-pane fade show active content" id="pills-rules7" role="tabpanel" aria-labelledby="pills-rules7-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Persyaratan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Jika dikuasakan (Surat kuasa di atas kertas bermaterai RP 6.000,KTP orang yang diberi kuasa)</td>
+													<td data-title="Persyaratan">
+													Surat permohonan (7 rangkap)
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Persyaratan">
+													Fotokopi KTP para pemohon (ahli waris) menggunakan kertas A4
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Persyaratan">
+													Fotokopi kartu keluarga pewaris (almarhum) menggunakan kertas A4
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Persyaratan">
+													Fotokopi buku nikah pewaris (almarhum) menggunakan kertas A4
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Persyaratan">
+													Keterangan silsilah keluarga ahli waris dari kelurahan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">6</td>
+													<td data-title="Persyaratan">
+													Surat keterangan kematian dan penguburan
+
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">7</td>
+													<td data-title="Persyaratan">
+													Catatan sipil kematian
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="tab-pane fade content" id="pills-pelayanan7" role="tabpanel" aria-labelledby="pills-pelayanan7-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">Membawa seluruh persyaratan kepada RT/RW setempat.
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Meminta surat pengantar kepada RT/RW setempat.
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Meminta surat keterangan bermaterai ditandatangani oleh seluruh ahli waris disaksikan dan ditandatangani para saksi, yaitu ketua RT dan RW setempat.
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Isilah formulir permohonan Surat Keterangan Ahli waris pada template berkas yang telah didownload 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">6</td>
+													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">7</td>
+													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">8</td>
+													<td data-title="Pelayanan">Setelah diverifikasi Surat Keterangan Ahli waris akan diterbitkan dan dapat dicetak
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							  </div>
+						</div>
+					</div>
+					
+					<div class="card-header"  id="headingEight">
+						<a class="text-primaries btn-icon-split" href="" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseOne">
+							<span class="icon">
+								  <i class="fas fa-arrow-right"></i>
+							</span>
+							<span class="text">Surat Keterangan Tidak Mampu</span>
+						</a>
+					</div>
+					<div id="collapseEight" class="collapse " aria-labelledby="headingEight" data-parent="#accordion">
+						<div class="card-body">
+							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-links active" id="pills-rules-tab" data-toggle="pill" href="#pills-rules8" role="tab"
+									aria-controls="pills-home" aria-selected="true">Persyaratan</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-links" id="pills-pelayanan8-tab" data-toggle="pill" href="#pills-pelayanan8" role="tab"
+									aria-controls="pills-profile" aria-selected="false">Mekanisme Pelayanan</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="btn btn-success btn-icon-split ml-3">
+										<span class="icon text-white-50">
+										  <i class="fas fa-arrow-down"></i>
+										</span>
+										<span class="text">Unduh Template</span>
+									</a>
+								</li>
+							</ul>
+							  <div class="tab-content pt-2 pl-1" id="pills-tabContent">
+								<div class="tab-pane fade show active content" id="pills-rules8" role="tabpanel" aria-labelledby="pills-rules8-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Persyaratan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Persyaratan">
+													Surat pengantar dan keterangan RT 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Persyaratan">
+													Surat pernyataan tidak mampu yang diketahui RT dan 2 orang saksi 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Persyaratan">
+													Fotocopy KTP dan KK pemohon 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Persyaratan">
+													Fotocopy KTP 2 orang saksi 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Persyaratan">
+													Pas foto rumah yang bersangkutan dari posisi depan dan samping rumah masing-masing ukuran 5R 
+													</td>
+												</tr>
+													
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="tab-pane fade content" id="pills-pelayanan8" role="tabpanel" aria-labelledby="pills-pelayanan8-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">
+													Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">
+													Isilah formulir permohonan Surat Keterangan Tidak Mampu pada template berkas yang telah didownload 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">
+													Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">
+													Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">
+													Setelah diverifikasi Surat Keterangan Tidak Mampu akan diterbitkan dan dapat dicetak
+													</td>
+												</tr>
+												
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+							  </div>
+						</div>
+					</div>
+					
+					<div class="card-header"  id="headingNine">
+						<a class="text-primaries btn-icon-split" href="" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseOne">
+							<span class="icon">
+								  <i class="fas fa-arrow-right"></i>
+							</span>
+							<span class="text">Surat Keterangan Tanah</span>
+						</a>
+					</div>
+					<div id="collapseNine" class="collapse " aria-labelledby="headingNine" data-parent="#accordion">
+						<div class="card-body">
+							<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item">
+								  <a class="nav-links active" id="pills-rules-tab" data-toggle="pill" href="#pills-rules9" role="tab"
+									aria-controls="pills-home" aria-selected="true">Persyaratan</a>
+								</li>
+								<li class="nav-item">
+								  <a class="nav-links" id="pills-pelayanan9-tab" data-toggle="pill" href="#pills-pelayanan9" role="tab"
+									aria-controls="pills-profile" aria-selected="false">Mekanisme Pelayanan</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="btn btn-success btn-icon-split ml-3">
+										<span class="icon text-white-50">
+										  <i class="fas fa-arrow-down"></i>
+										</span>
+										<span class="text">Unduh Template</span>
+									</a>
+								</li>
+							</ul>
+							  <div class="tab-content pt-2 pl-1" id="pills-tabContent">
+								<div class="tab-pane fade show active content" id="pills-rules9" role="tabpanel" aria-labelledby="pills-rules9-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Persyaratan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Persyaratan">
+													Surat Keterangan Jual beli
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Persyaratan">
+													Surat keterangan ahli waris bermaterai
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Persyaratan">
+													Surat Hibah
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Persyaratan">
+													Surat Pernyataan kepemilikan tanah bermaterai
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Persyaratan">
+													Peta lokasi tanah 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Persyaratan">
+													Foto copy KTP
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div class="tab-pane fade content" id="pills-pelayanan9" role="tabpanel" aria-labelledby="pills-pelayanan9-tab">
+									<div id="no-more-tables">
+										<table class="col-md-12 table-bordered table-striped table-condensed cf">
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">
+													Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">
+													Isilah formulir permohonan Surat Keterangan Tanah  pada template berkas yang telah didownload 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">
+													Upload formulir yang sudah diisi
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">
+													Pemohon menunggu verifikasi data
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">
+													Setelah diverifikasi Surat Keterangan Tanah akan diterbitkan dan dapat dicetak
+													</td>
 												</tr>
 											</tbody>
 										</table>
@@ -798,86 +1290,79 @@
 
 		
 	
-<!-- footer awal -->
-<footer>
-	<!-- Footer konten -->
-	<div class="row head-footer">
-		<div class="col-md-6">
-			<div class="row card-body p-2 align-items-center">
-				<div class="col-md-3">
-					<img src="asset/img/main-logo.png" class="w-75 ml-3 mt-4">
-				</div>	
-				  <div class="col-sm-9">
-					<div class="widget-inner">
-						<div class="widget-title-outer ">
-						<h3 class="widget-title">Tentang Desa Cikolelet</h3>
-					</div>
-					</div>
-					<p id="tentang" class="text-left float-right my-0">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
-				  </div>
+	<!-- footer awal -->
+	<footer>
+			<!-- Footer konten -->
+			<div class="row head-footer">
+				<div class="col-md-4">
+					<div class="widget">
+						<div class="widget-inner">
+							<div class="widget-title-outer">
+								<h3 class="widget-title">Tentang Desa Cikolelet</h3>
+							</div>
+							<p id="tentang" class="text-left">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
+						</div><!-- end inner -->
+					</div><!-- end widget -->
+				</div>
+				<div class="col-md-4 text-center">
+					<div class="widget">
+						<div class="widget-inner">
+							<div class="widget-title-outer">
+								<h3 class="widget-title">Cikolelet</h3>
+							</div>
+							<img class="logo-footer " src="asset/img/logo2.png" alt="Logo Cikolelet" >
+						</div><!-- end inner -->
+					</div><!-- end widget -->
+				</div>
+				<div class="col-md-4">
+					<div class="widget">
+						<div class="widget-inner">
+							<div class="widget-title-outer">
+								<h3 class="widget-title">Alamat Desa</h3>
+							</div>
+							<div id="alamatdesa" class="text-left">
+								<p class="my-0">Desa Cikolelet,  kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
+								<p class="my-0">021000000.</p>
+								<a href="mailto:info@Cikolelet.desa.id">info@Cikolelet.desa.id</a>
+							</div>
+						</div><!-- end inner -->
+					</div><!-- end widget -->
 				</div>
 
-			<!-- <img class="logo-footer float-left" src="asset/img/logo2.png" alt="Logo Cikolelet" >
-			<div class="widget">
-				<div class="widget-inner">
-					
-					<div class="widget-title-outer ">
-						<h3 class="widget-title">Tentang Desa Cikolelet</h3>
-					</div>
-					<p id="tentang" class="text-left float-right">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
-				</div>
-			</div> -->
-		</div> 
-		
-		<div class="col-md-6">
-			<div class="widget">
-				<div class="widget-inner">
-					<div class="widget-title-outer">
-						<h3 class="widget-title">Alamat Desa</h3>
-					</div>
-					<div id="alamatdesa" class="text-left">
-						<p class="my-0">Desa Cikolelet,  kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
-						<p class="my-0">021000000.</p>
-						<a href="mailto:info@Cikolelet.desa.id">info@Cikolelet.desa.id</a>
-					</div>
-				</div><!-- end inner -->
-			</div><!-- end widget -->
-		</div>
-
-		
-
-		
-	</div>
-	<div class="row footers">
-						
-		<!-- link sosmed -->
-		<div class="col-md-12 text-center">
-			<div class="social d-flex justify-content-center">
-				<a href="https:/www.twitter.com" class="icons">
-					<i class="fab fa-twitter"></i>
-				</a>
-				<a href="https:/www.facebook.com" class="icons">
-					<i class="fab fa-facebook-f"></i>
-				</a>
-				<a href="https:/www.instagram.com" class="icons">
-					<i class="fab fa-instagram"></i>
-				<a href="https:/www.Whatsapp.com" class="icons">
-					<i class="fab fa-whatsapp"></i>
-				</a>
 				
-			</div> 
-		</div>
+	
+				
+			</div>
+			<div class="row footers">
+								
+				<!-- link sosmed -->
+				<div class="col-md-12 text-center">
+					<div class="social d-flex justify-content-center">
+						<a href="https:/www.twitter.com" class="icons">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a href="https:/www.facebook.com" class="icons">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="https:/www.instagram.com" class="icons">
+							<i class="fab fa-instagram"></i>
+						<a href="https:/www.Whatsapp.com" class="icons">
+							<i class="fab fa-whatsapp"></i>
+						</a>
+						
+					</div> 
+				</div>
+				
+				<div class="col-md-12 text-center">
+					&copy 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
+				</div>
+				
+				<!-- link sosmed akhir   -->
+			</div>
+			<!-- Copyright -->
 		
-		<div class="col-md-12 text-center">
-			&copy 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
-		</div>
-		
-		<!-- link sosmed akhir   -->
-	</div>
-	<!-- Copyright -->
-
-</footer>
-<!-- footer akhir -->
+	</footer>
+	<!-- footer akhir -->
 	<script>
 		window.onscroll = function() {myFunction()};
 		
