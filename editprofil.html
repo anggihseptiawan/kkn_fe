@@ -22,7 +22,7 @@
 	 
 </head>
 <body>
-	<div class="container-fluid ">
+	<header class="container-fluid ">
 		<div class="row">
 			<nav class="col-md-12 navbar navbar-blog  navbar-expand-lg navbar-light " id="myHeader">
 				<img class="logoku" src="asset/img/logo2.png" alt="Logo Cikolelet" >
@@ -36,16 +36,48 @@
 				<div class="collapse navbar-collapse" id="menux">
 					<ul class="nav nav-pills  flex-column flex-lg-row  ml-auto" id="pills-tab" role="tablist">
 						<li class="nav-item">
-							<a class=" nav-link " id="pills-tab-4" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-about" aria-selected="false">Masuk</a>
+							<a class="nav-link  bolded" href="#" >Beranda</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link  bolded" href="#" >Surat Keterangan</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link  bolded" href="#" >Surat Rekomendasi</a>
+						</li>
+						
+											
+						<!-- Khusus user yang login -->
+						<li class="nav-item">
+							<div class="dropdown show">
+							   <a class="nav-link  bolded dropdown-toggle" href="#"  id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								   "nama user"
+							   </a>
+							   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+									<ul class="list-unstyled">									
+										<li><a href="#">Profil Pengguna</a></li>
+										<li><a href="#">Log out</a></li>
+										<li><a href="#">Status Pengajuan Surat </a></li>
+									</ul>	
+							   </div>
+							 </div> 
+							 
+						</li> 
+						<!-- Khusus user yang login -->
+						<!-- Link Login dan daftar -->
+						<li class="nav-item">
+							<a class=" nav-link " href="#" >Masuk</a>
 						</li>
 						<li class="nav-item">
-							<a class=" nav-link " id="pills-tab-4" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-about" aria-selected="false">Daftar</a>
+							<a class=" nav-link "href="#">Daftar</a>
 						</li>
+						<!-- Link Login dan daftar -->
 					</ul>
 				</div>	
 			</nav>
 		</div>
-	</div>
+	</header>
 	<main class="">
 			<div class="container">		
 				<div class="row  mt-5 justify-content-center">
@@ -91,19 +123,14 @@
 									<div class="form-group">
 										<textarea type="ttex" class="form-control form-control-user " id="alamat" name="alamat" placeholder="Cikolelet" value="" ></textarea>
 									</div>
-								</form>
-
-								
-								
-							</div>
-							<div class="col-lg-12 profil-form">
-								
+							
+							
+							
 								<div class="widget-title-outer">
 									<h3 class="widget-title">Data Akun</h3>
 								</div>
 								
 								
-								<form class="user" method="post" > 
 									<div class="form-group">
 										<input type="text" class="form-control form-control-user " id="username" name="username" placeholder="Harun" value="">
 									</div>
@@ -135,75 +162,86 @@
 	</main>
 
 		
-	<!-- footer awal -->
-	<footer>
-		<!-- Footer konten -->
-		<div class="row head-footer">
-			<div class="col-md-6">
-				<div class="row card-body p-2 align-items-center">
-					<div class="col-md-3">
-						<img src="asset/img/main-logo.png" class="w-75 ml-3 mt-4">
-					</div>	
-					  <div class="col-sm-9">
-						<div class="widget-inner">
-							<div class="widget-title-outer ">
-							<h3 class="widget-title">Tentang Desa Cikolelet</h3>
-						</div>
-						</div>
-						<p id="tentang" class="text-left float-right my-0">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
-					  </div>
-					</div>
-			</div> 
-			
-			<div class="col-md-6">
-				<div class="widget">
+<!-- footer awal -->
+<footer>
+	<!-- Footer konten -->
+	<div class="row head-footer">
+		<div class="col-md-6">
+			<div class="row card-body p-2 align-items-center">
+				<div class="col-md-3">
+					<img src="asset/img/main-logo.png" class="w-75 ml-3 mt-4">
+				</div>	
+				  <div class="col-sm-9">
 					<div class="widget-inner">
-						<div class="widget-title-outer">
-							<h3 class="widget-title">Alamat Desa</h3>
-						</div>
-						<div id="alamatdesa" class="text-left">
-							<p class="my-0">Desa Cikolelet,  kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
-							<p class="my-0">021000000.</p>
-							<a href="mailto:info@Cikolelet.desa.id">info@Cikolelet.desa.id</a>
-						</div>
-					</div><!-- end inner -->
-				</div><!-- end widget -->
-			</div>
+						<div class="widget-title-outer ">
+						<h3 class="widget-title">Tentang Desa Cikolelet</h3>
+					</div>
+					</div>
+					<p id="tentang" class="text-left float-right my-0">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
+				  </div>
+				</div>
 
-			
-
-			
-		</div>
-		<div class="row footers">
-							
-			<!-- link sosmed -->
-			<div class="col-md-12 text-center">
-				<div class="social d-flex justify-content-center">
-					<a href="https:/www.twitter.com" class="icons">
-						<i class="fab fa-twitter"></i>
-					</a>
-					<a href="https:/www.facebook.com" class="icons">
-						<i class="fab fa-facebook-f"></i>
-					</a>
-					<a href="https:/www.instagram.com" class="icons">
-						<i class="fab fa-instagram"></i>
-					<a href="https:/www.Whatsapp.com" class="icons">
-						<i class="fab fa-whatsapp"></i>
-					</a>
+			<!-- <img class="logo-footer float-left" src="asset/img/logo2.png" alt="Logo Cikolelet" >
+			<div class="widget">
+				<div class="widget-inner">
 					
-				</div> 
-			</div>
-			
-			<div class="col-md-12 text-center">
-				&copy 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
-			</div>
-			
-			<!-- link sosmed akhir   -->
+					<div class="widget-title-outer ">
+						<h3 class="widget-title">Tentang Desa Cikolelet</h3>
+					</div>
+					<p id="tentang" class="text-left float-right">Cikolelet adalah sebuah desa di wilayah  kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
+				</div>
+			</div> -->
+		</div> 
+		
+		<div class="col-md-6">
+			<div class="widget">
+				<div class="widget-inner">
+					<div class="widget-title-outer">
+						<h3 class="widget-title">Alamat Desa</h3>
+					</div>
+					<div id="alamatdesa" class="text-left">
+						<p class="my-0">Desa Cikolelet,  kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
+						<p class="my-0">021000000.</p>
+						<a href="mailto:info@Cikolelet.desa.id">info@Cikolelet.desa.id</a>
+					</div>
+				</div><!-- end inner -->
+			</div><!-- end widget -->
 		</div>
-		<!-- Copyright -->
-	
-	</footer>
-	<!-- footer akhir -->
+
+		
+
+		
+	</div>
+	<div class="row footers">
+						
+		<!-- link sosmed -->
+		<div class="col-md-12 text-center">
+			<div class="social d-flex justify-content-center">
+				<a href="https:/www.twitter.com" class="icons">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https:/www.facebook.com" class="icons">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="https:/www.instagram.com" class="icons">
+					<i class="fab fa-instagram"></i>
+				<a href="https:/www.Whatsapp.com" class="icons">
+					<i class="fab fa-whatsapp"></i>
+				</a>
+				
+			</div> 
+		</div>
+		
+		<div class="col-md-12 text-center">
+			&copy 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
+		</div>
+		
+		<!-- link sosmed akhir   -->
+	</div>
+	<!-- Copyright -->
+
+</footer>
+<!-- footer akhir -->
 	<script>
 		window.onscroll = function() {myFunction()};
 		
