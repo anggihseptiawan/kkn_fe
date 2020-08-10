@@ -96,7 +96,7 @@
       <li class="nav-item <?= $active == 'perizinan' ? "active" : ""; ?>">
         <a class="nav-link" href="<?= base_url("admin/perizinan") ?>">
           <i class="fas fa-fw fa-file-signature"></i>
-          <span>Permohonan Perizinan</span></a>
+          <span>Daftar Pengajuan</span></a>
       </li>
 
       <!-- Sidebar Toggler (Sidebar) -->
