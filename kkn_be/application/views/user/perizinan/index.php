@@ -1,10 +1,10 @@
 <div class="container-fluid ">
     <main class="">
         <div class="card shadow my-4 px-3 pb-4">
-            <h4 class="mb-3 mt-4">Ajukan Perizinan</h4>
+            <h4 class="mb-3 mt-4">Lakukan Pengajuan</h4>
             <div class="form-group">
                 <select class="form-control form-control-user " id="fm_jenis" name="jenis" required="true">
-                    <option value="0">Pilih Jenis Surat </option>
+                    <option value="">Pilih Jenis Surat </option>
                      <option value="Surat-Keterangan-Ahli-Waris">Surat Keterangan Ahli Waris</option>
                     <option value="Surat-Keterangan-Domisili">Surat Keterangan Domisili</option>
                     <option value="Surat-Keterangan-Kematian">Surat Keterangan Kematian</option>

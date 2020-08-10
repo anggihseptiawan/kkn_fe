@@ -2,7 +2,7 @@
 	<div class="container-fluid mt-3 ">
 		<div class="card shadow mb-4 mt-4">
 			<div class="card-header py-3">
-				<h6 class="m-0 font-weight-bold ">Surat Keterangan</h6>
+				<h6 class="m-0 font-weight-bold ">Syarat dan Ketentuan Pengajuan</h6>
 			</div>
 			<div id="accordion">
 				<!-- Surat Keterangan Ahli Waris -->
@@ -111,44 +111,32 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Membawa seluruh persyaratan kepada RT/RW setempat.
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">Meminta surat pengantar kepada RT/RW setempat.
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">Meminta surat keterangan bermaterai ditandatangani oleh seluruh ahli waris disaksikan dan ditandatangani para saksi, yaitu ketua RT dan RW setempat.
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
 													</td>
 												</tr>
+												
 												<tr>
 													<td data-title="No">4</td>
-													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">5</td>
-													<td data-title="Pelayanan">Isilah formulir permohonan Surat Keterangan Ahli waris pada template berkas yang telah didownload 
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
+
 													</td>
 												</tr>
-												<tr>
-													<td data-title="No">6</td>
-													<td data-title="Pelayanan">Upload formulir yang sudah diisi
-													</td>
-												</tr>
-												<tr>
-													<td data-title="No">7</td>
-													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
-													</td>
-												</tr>
-												<tr>
-													<td data-title="No">8</td>
-													<td data-title="Pelayanan">Setelah diverifikasi Surat Keterangan Ahli waris akan diterbitkan dan dapat dicetak
-													</td>
-												</tr>
+												
 											</tbody>
 										</table>
 									</div>
@@ -255,34 +243,32 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Datang ke rumah Ketua RT setempat untuk mendapatkan surat pengantar. Lalu, bawa ke Ketua RW untuk ditandatangani.
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">Isilah formulir permohonan Surat Keterangan Domisili pada template berkas yang telah didownload 
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
 													</td>
 												</tr>
+												
 												<tr>
 													<td data-title="No">4</td>
-													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">5</td>
-													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
+
 													</td>
 												</tr>
-												<tr>
-													<td data-title="No">6</td>
-													<td data-title="Pelayanan">Setelah diverifikasi Surat Keterangan Domisili akan diterbitkan dan dapat dicetak
-													</td>
-												</tr>
+												
 											</tbody>
 										</table>
 									</div>
@@ -375,37 +361,44 @@
 							<div class="tab-pane fade content" id="pills-pelayanan4" role="tabpanel" aria-labelledby="pills-pelayanan4-tab4">
 								<div id="no-more-tables">
 									<table class="col-md-12 table-bordered table-striped table-condensed cf">
-										<thead class="cf">
-											<tr>
-												<th>No</th>
-												<th>Mekanisme Pelayanan</th>
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
+													</td>
+												</tr>
+												
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
 
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Pelayanan">Pemohon diminta surat keterangan kepada ketua RT</td>
-											</tr>
-											<tr>
-												<td data-title="No">2</td>
-												<td data-title="Pelayanan">Pemohon membawa surat pengantar (dari RT) kepada ketua RW untuk di tanda tangani/ di sahkan</td>
-											</tr>
-											<tr>
-												<td data-title="No">3</td>
-												<td data-title="Pelayanan">Pemohon mendatangi kantor Keluarahan membawa berkas sessuai persyaratan dan mendapatkan surat kemantian</td>
-											</tr>
-											<tr>
-												<td data-title="No">4</td>
-												<td data-title="Pelayanan">Pemohon mendatangi Kecamatan membawa berkas sesuai persyaratan dan surat kematian dari keluarahan</td>
-											</tr>
-											<tr>
-												<td data-title="No">5</td>
-												<td data-title="Pelayanan">Pemohon membawa berkas sesuai persyaratan yang sudah ditandatangani ke Dinas kependudukan dan Pencatatan Sipil</td>
-											</tr>
-
-										</tbody>
-									</table>
+													</td>
+												</tr>
+												
+											</tbody>
+										</table>
 								</div>
 							</div>
 						</div>
@@ -462,54 +455,20 @@
 											</tr>
 											<tr>
 												<td data-title="No">1</td>
-												<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
+												<td data-title="Persyaratan">Surat pengantar RT/RW di alamat baru </td>
 											</tr>
 											<tr>
 												<td data-title="No">2</td>
-												<td data-title="Persyaratan">Surat keterangan pindah dari Keluarahan asli</td>
+												<td data-title="Persyaratan">Surat keterangan pindah dari Disdukcapil dari alamat sebelumnya 
+</td>
 											</tr>
 											<tr>
 												<td data-title="No">3</td>
-												<td data-title="Persyaratan">KK dan KTP-el (asli dan fotokopi)</td>
+												<td data-title="Persyaratan">Surat domisili beserta fotokopi KTP tetangga terdekat dengan rumah baru. Apabila pemohon menumpang di rumah orang atau saudara, maka harus menyertakan fotokopi KTP kepala rumah tangga pemilik rumah yang ditumpangi pemohon.
+</td>
 											</tr>
 
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Persyaratan"><Strong>Persyaratan Pindah Datang Antarkecamatan</Strong></td>
-											</tr>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
-											</tr>
-											<tr>
-												<td data-title="No">2</td>
-												<td data-title="Persyaratan">Surat Keterangan pindah dari Kelurahan Asal
-												</td>
-											</tr>
-											<tr>
-												<td data-title="No">3</td>
-												<td data-title="Persyaratan">Surat Keterangan Pindah dari Kecamatan asal</td>
-											</tr>
-											<tr>
-												<td data-title="No">4</td>
-												<td data-title="Persyaratan">Surat KK dan KTP-el (asli dan fotocopy)</td>
-											</tr>
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Persyaratan"><strong>Persyaratan Pindah Datang Antarkota/Provinsi</strong></td>
-											</tr>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Persyaratan">Surat Pengantar RT/RW tujuan</td>
-											</tr>
-											<tr>
-												<td data-title="No">2</td>
-												<td data-title="Persyaratan">Surat Keterangan Pindah dari daerah asal</td>
-											</tr>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Persyaratan">KTP-el (asli dan fotokopi)</td>
-											</tr>
+											
 										</tbody>
 									</table>
 								</div>
@@ -527,29 +486,32 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">Isilah formulir permohonan pindah pada template berkas yang telah didownload 
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">Upload formulir yang sudah diisi
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
 													</td>
 												</tr>
+												
 												<tr>
 													<td data-title="No">4</td>
-													<td data-title="Pelayanan">Pemohon menunggu verifikasi data
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">5</td>
-													<td data-title="Pelayanan">Setelah diverifikasi SuratKeterangan Pindah tingkat kelurahan akan diterbitkan dan dapat dicetak
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
+
 													</td>
 												</tr>
+												
 											</tbody>
 										</table>
 								</div>
@@ -651,35 +613,31 @@
 											<tbody>
 												<tr>
 													<td data-title="No">1</td>
-													<td data-title="Pelayanan">
-													Pemohon Mengupload berkas pendukung di website pelayanan Kelurahan sesuai persyaratan
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">2</td>
-													<td data-title="Pelayanan">
-													Isilah formulir permohonan Surat Keterangan Tidak Mampu pada template berkas yang telah didownload 
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">3</td>
-													<td data-title="Pelayanan">
-													Upload formulir yang sudah diisi
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
 													</td>
 												</tr>
+												
 												<tr>
 													<td data-title="No">4</td>
-													<td data-title="Pelayanan">
-													Pemohon menunggu verifikasi data
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
 													</td>
 												</tr>
 												<tr>
 													<td data-title="No">5</td>
-													<td data-title="Pelayanan">
-													Setelah diverifikasi Surat Keterangan Tidak Mampu akan diterbitkan dan dapat dicetak
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
+
 													</td>
 												</tr>
-												
 												
 											</tbody>
 										</table>
@@ -756,28 +714,44 @@
 							<div class="tab-pane fade content" id="pills-pelayanan2" role="tabpanel" aria-labelledby="pills-pelayanan2-tab">
 								<div id="no-more-tables">
 									<table class="col-md-12 table-bordered table-striped table-condensed cf">
-										<thead class="cf">
-											<tr>
-												<th>No</th>
-												<th>Mekanisme Pelayanan</th>
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
+													</td>
+												</tr>
+												
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
 
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Pelayanan">Dapatkan surat pengantar dari RT RW setempat, Mendatangi RT RW Setempat untuk minta dibuatkan surat pengantar</td>
-											</tr>
-											<tr>
-												<td data-title="No">2</td>
-												<td data-title="Pelayanan">Mendatangi kantor kelurahan (Kepala Desa), Setelah Mendapatkan surat Pengantar RT RW, kemudian bawalah Surat Pengantar RT RW serta dengan berkas yang lainnya ke kantor kelurahan atau kepala desa. Di sana anda akan diminta untuk mengisi formulir pembuatan surat keterangan usaha. Setelah semua persyaratan anda serahkan maka anda tinggal menunggu SKU jadi.</td>
-											</tr>
-											<tr>
-												<td data-title="No">3</td>
-												<td data-title="Pelayanan">Bawa berkas ke kantor kecamatan, Setelah Surat Keterangan Usaha jadi maka langkah selanjutnya anda tinggal membawanya ke kantor kecamatan. SKU tersebut nantinya akan ditandatangani oleh camat dan distempel.</td>
-											</tr>
-										</tbody>
-									</table>
+													</td>
+												</tr>
+												
+											</tbody>
+										</table>
 								</div>
 							</div>
 						</div>
@@ -860,48 +834,44 @@
 							<div class="tab-pane fade content" id="pills-pelayanan" role="tabpanel" aria-labelledby="pills-pelayanan-tab">
 								<div id="no-more-tables">
 									<table class="col-md-12 table-bordered table-striped table-condensed cf">
-										<thead class="cf">
-											<tr>
-												<th>No</th>
-												<th>Mekanisme Pelayanan</th>
+											<thead class="cf">
+												<tr>
+													<th>No</th>
+													<th>Mekanisme Pelayanan</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td data-title="No">1</td>
+													<td data-title="Pelayanan">Pemohon mengunduh Formulir pengajuan
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">2</td>
+													<td data-title="Pelayanan">Melengkapi dokumen Pendukung sesuai ceklist yang tertera pada formulir
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">3</td>
+													<td data-title="Pelayanan">Isi formulir , gabungkan dengan berkas file dokumen pendukung lainnya dalam ektensi .zip
+													</td>
+												</tr>
+												
+												<tr>
+													<td data-title="No">4</td>
+													<td data-title="Pelayanan">Upload file Zip yang sudah dilengkapi dengan dokumen pendukung 
+													</td>
+												</tr>
+												<tr>
+													<td data-title="No">5</td>
+													<td data-title="Pelayanan">Lihat Daftar Pengajuan jika sudah disetujui makan dokumen dapat diunduh. Dan digunakan sesuai keperluan
 
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td data-title="No">1</td>
-												<td data-title="Pelayanan">Fotokopi dokumen yang dibutuhkan</td>
-											</tr>
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Pelayanan">Pertama setelah mendapatkan semua dokumen yang dibutuhkan. Anda harus menggandakan Pihak kelurahan hanya membutuhkan selembar salinan untuk tiap dokumen, namun sebaiknya Anda memliki dua atau tiga lembar Salinan untuk tiap dokumen</td>
-											</tr>
-											<tr>
-												<td data-title="No">2</td>
-												<td data-title="Pelayanan">Datang ke kelurahan</td>
-											</tr>
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Pelayanan">Anda harus datang sendiri ke Kantor Kelurahan, tidak dapat diwakilkan. Disini anda akan mengambil nomor antrian untuk menunggu dilayani. Biasanya pihak kelurahan membuka layanannya pada jam 08:00 sampai jam 15:00</td>
-											</tr>
-											<tr>
-												<td data-title="No">3</td>
-												<td data-title="Pelayanan">Penyerahan Dokumen</td>
-											</tr>
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Pelayanan">Setelah giliran anda tiba, anda akan menyerahkan salinan dokumen asli. Petugas hanya minta untuk ditunjukkan, tapi mereka akan mengambil salinannya</td>
-											</tr>
-											<tr>
-												<td data-title="No">4</td>
-												<td data-title="Pelayanan">Foto dan sidik jari</td>
-											</tr>
-											<tr>
-												<td data-title="No"></td>
-												<td data-title="Pelayanan">Setelah penyerahan dokumen, anda akan dipanggil untuk pas foto dan pegambilan sidik jari. Jika semua proses sudah selesaim abda ajab diberikan surat pengantar untuk ditunjukan saat mengambil KTP nanti, Surat ini juga bisa menjadi pengganti kartu identitas sementara selama menunggu pengambilan KTP</td>
-											</tr>
-										</tbody>
-									</table>
+													</td>
+												</tr>
+												
+											</tbody>
+										</table>
 								</div>
 							</div>
 						</div>
