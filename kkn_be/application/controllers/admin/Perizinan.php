@@ -13,15 +13,19 @@ class Perizinan extends CI_Controller
     public function index()
     {
         $data['page'] = 'admin/perizinan/index';
+        $data['active'] = 'perizinan';
         $data['pengajuan'] = $this->db->where('status =', 0)->get('surat')->result_array();
+        $data['user'] = $this->db->get_where('admin', ['email' => $this->session->userdata("email")])->row_array();
         $this->load->view('layouts/backend/main_layout', $data);
     }
 
     public function detail_pengajuan($user_id, $surat_id)
     {
         $data['page'] = 'admin/perizinan/detail';
+        $data['active'] = 'perizinan';
         $data['user'] = $this->db->where(['user_id' => $user_id])->get('user')->row_array();
         $data['surat'] = $this->db->where(['surat_id' => $surat_id])->get('surat')->row_array();
+        $data['user'] = $this->db->get_where('admin', ['email' => $this->session->userdata("email")])->row_array();
         $this->load->view('layouts/backend/main_layout', $data);
     }
 

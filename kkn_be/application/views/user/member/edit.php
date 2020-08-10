@@ -3,14 +3,14 @@
         <div class="row  mt-5 justify-content-center">
 
             <div class="col-md-8">
-                
+                <div class="card-header py-3">
+                    <h2 class="m-0 font-weight-bold text-primaries ">Edit Profil</h2>
+
+                </div>
                 <div class="row profil-container rounded ">
-                    <div class="card-header col-lg-12 py-3">
-                        <h2 class="m-0 font-weight-bold text-primaries ">Edit Profil</h2>
 
-                    </div>
 
-                    <div class="card col-lg-12 profil-form ">
+                    <div class="col-lg-12 profil-form ">
                         <div class="widget-title-outer">
                             <div class="text-center">
                                 <img src="<?= base_url(""); ?>assets/img/man.png" class="rounded-circle w-25  mb-4" alt="Account">

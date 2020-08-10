@@ -14,10 +14,10 @@
                     <img src="<?= base_url("assets"); ?>/img/slide.png" alt="gambar1" class="w-100 ">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?= base_url("assets"); ?>/img/slide.png" alt="gambar2" class="w-100 ">
+                    <img src="<?= base_url("assets"); ?>/img/slide1.png" alt="gambar2" class="w-100 ">
                 </div>
                 <div class="carousel-item">
-                    <img src="<?= base_url("assets"); ?>/img/slide.png" alt="gambar3" class="w-100 ">
+                    <img src="<?= base_url("assets"); ?>/img/slide2.png" alt="gambar3" class="w-100 ">
                 </div>
             </div>
 
@@ -42,81 +42,80 @@
             </div><!-- end widget -->
         </div>
 
-        <div class=" card-columns">
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+        <div class="card-columns">
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Kartu Tanda Penduduk</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
+    
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Surat Keterangan Domisili</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                    
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Surat Keterangan Pindah</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
+                                    
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Surat Keterangan Ahli Waris</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                                    
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Surat Keterangan Kematian</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
+                                    
+                    <div class="card bg-light">
+                        <div class="row card-body p-2 align-items-center">
+                        <div class="col-md-3">
+                            <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
+                        </div>  
+                          <div class="col-sm-9">
+                            <p class="card-title font-weight-bold">Surat Keterangan Tidak Mampu</p>
+                            <p class="card-text">Jam Pelayanan : 08:30 - 16:00</p>
+                          </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
-                    </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
-                    </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card bg-light">
-                <div class="row card-body p-2 align-items-center">
-                    <div class="col-md-3">
-                        <img src="<?= base_url("assets") ?>/img/main-logo.png" style="width:100%">
-                    </div>
-                    <div class="col-sm-9">
-                        <p class="card-title font-weight-bold">Kolom 1</p>
-                        <p class="card-text">Some text inside the first card</p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
+                        
+                  </div>
     </div>
 
 

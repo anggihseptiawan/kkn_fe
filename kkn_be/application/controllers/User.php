@@ -23,6 +23,7 @@ class User extends CI_Controller
         $data['username'] = $data['user']['username'];
         $data['nohp'] = $data['user']['nohp'];
         $data['email'] = $data['user']['email'];
+        $data['active'] = 'user';
 
         $this->load->view('layouts/frontend/main_layout', $data);
     }
@@ -40,11 +41,8 @@ class User extends CI_Controller
         $data['username'] = $data['user']['username'];
         $data['nohp'] = $data['user']['nohp'];
         $data['email'] = $data['user']['email'];
+        $data['active'] = 'user';
 
         $this->load->view('layouts/frontend/main_layout', $data);
-    }
-
-    public function update()
-    {
     }
 }

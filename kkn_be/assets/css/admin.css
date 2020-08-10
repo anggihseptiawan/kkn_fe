@@ -158,3 +158,37 @@
 .box__button:focus {
 	background-color: #0f3c4b;
 }
+.bg-gradient-primary {
+    background-color: #3aaade;
+    background-image: linear-gradient(180deg,#3aaade 10%,#3aaade 100%);
+    background-size: cover;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: rgb(0, 0, 0);
+	background-color: rgba(255, 255, 255);
+}
+.nav-pills .nav-links {
+	border-radius: 0.25rem;
+}
+.nav-links {
+	display: block;
+	padding: 0.5rem 1rem;
+}
+.nav-pills .nav-links.active,
+.nav-pills .show > .nav-links {
+	color: rgba(255, 255, 255);
+	background-color: #3aaade;
+}
+.nav-span {
+	display: block;
+	font-size: 25px;
+	padding: 0 0rem;
+}
+a span{
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -15,7 +15,9 @@ class Panduan extends CI_Controller
     public function index()
     {
         $data['page'] = 'admin/panduan/index';
+        $data['active'] = 'panduan';
         $data['dokumen'] = $this->db->get('panduan')->result_array();
+        $data['user'] = $this->db->get_where('admin', ['email' => $this->session->userdata("email")])->row_array();
 
         $this->load->view('layouts/backend/main_layout', $data);
     }
@@ -23,6 +25,8 @@ class Panduan extends CI_Controller
     public function add()
     {
         $data['page'] = 'admin/panduan/add';
+        $data['active'] = 'panduan';
+        $data['user'] = $this->db->get_where('admin', ['email' => $this->session->userdata("email")])->row_array();
         $this->load->view('layouts/backend/main_layout', $data);
     }
 
@@ -66,7 +70,9 @@ class Panduan extends CI_Controller
     public function edit($id)
     {
         $data['page'] = 'admin/panduan/edit';
+        $data['active'] = 'panduan';
         $data['file'] = $this->db->get_where('panduan', ["panduan_id" => $id])->row_array();
+        $data['user'] = $this->db->get_where('admin', ['email' => $this->session->userdata("email")])->row_array();
 
         $this->load->view('layouts/backend/main_layout', $data);
     }

@@ -10,14 +10,14 @@
             <div class="form-group">
                 <label for="judul">Jenis Panduan</label>
                 <select class="form-control form-control-user " id="fm_jenis" name="jenis" required="true">
-
-                    <option value="Surat-Keterangan-Ahli-Waris" <?= $file['jenis'] == "Surat-Keterangan-Ahli-Waris" ? "selected" : ""; ?>>Surat Keterangan Ahli Waris</option>
+                     <option value="Surat-Keterangan-Ahli-Waris" <?= $file['jenis'] == "Surat-Keterangan-Ahli-Waris" ? "selected" : ""; ?>>Surat Keterangan Ahli Waris</option>
                     <option value="Surat-Keterangan-Domisili" <?= $file['jenis'] == "Surat-Keterangan-Domisili" ? "selected" : ""; ?>>Surat Keterangan Domisili</option>
                     <option value="Surat-Keterangan-Kematian" <?= $file['jenis'] == "Surat-Keterangan-Kematian" ? "selected" : ""; ?>>Surat Keterangan Kematian</option>
                     <option value="Surat-Keterangan-Pindah" <?= $file['jenis'] == "Surat-Keterangan-Pindah" ? "selected" : ""; ?>>Surat Keterangan Pindah</option>
+                   
                     <option value="Surat-Keterangan-Tidak-Mampu" <?= $file['jenis'] == "Surat-Keterangan-Tidak-Mampu" ? "selected" : ""; ?>>Surat Keterangan Tidak Mampu</option>
                     <option value="Surat-Keterangan-Usaha" <?= $file['jenis'] == "Surat-Keterangan-Usaha" ? "selected" : ""; ?>>Surat Keterangan Usaha</option>
-                    <option value="Surat-Pengantar-Pembuatan-KTP" <?= $file['jenis'] == "Surat-Pengantar-Pembuatan-KTP" ? "selected" : ""; ?>>Surat Pengantar Pembuatan KTP</option>
+                    <option value="Surat-Pengantar-Pengurusan-KTP" <?= $file['jenis'] == "Surat-Pengantar-Pengurusan-KTP" ? "selected" : ""; ?>>Surat Pengantar Pengurusan KTP</option>
                 </select>
             </div>
 

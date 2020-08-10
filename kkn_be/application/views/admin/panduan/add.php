@@ -16,8 +16,8 @@
                     <option value="Surat-Keterangan-Pindah">Surat Keterangan Pindah</option>
                     <option value="Surat-Keterangan-Tidak-Mampu">Surat Keterangan Tidak Mampu</option>
                     <option value="Surat-Keterangan-Usaha">Surat Keterangan Usaha</option>
-                    <option value="Surat-Pengantar-Pembuatan-KTP">Surat Pengantar Pembuatan KTP</option>
-
+                    <option value="Surat-Pengantar-Pengurusan-KTP">Surat Pengantar Pengurusan KTP</option>
+                    
                 </select>
             </div>
 

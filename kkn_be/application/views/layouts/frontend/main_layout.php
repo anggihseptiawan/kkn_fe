@@ -48,29 +48,26 @@
                     <div class="collapse navbar-collapse" id="menux">
                         <ul class="nav nav-pills  flex-column flex-lg-row  ml-auto" id="pills-tab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link  bolded" href="<?= base_url("home") ?>">Beranda</a>
+                                <a class="nav-link bolded <?= $active == 'home' ? "active" : "" ?>" href="<?= base_url("home") ?>">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  bolded" href="<?= base_url("SK") ?>">Surat Keterangan</a>
+                                <a class="nav-link bolded <?= $active == 'sk' ? "active" : "" ?>" href="<?= base_url("SK") ?>">Info Pengajuan Surat</a>
                             </li>
-
-                           <!--  <li class="nav-item">
-                                <a class="nav-link  bolded" href="<?= base_url("SR") ?>">Surat Rekomendasi</a>
-                            </li> -->
 
                             <?php if ($this->session->userdata('email')) : ?>
 
                                 <!-- Khusus user yang login -->
                                 <li class="nav-item">
                                     <div class="dropdown show">
-                                        <a class="nav-link bolded dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link bolded dropdown-toggle <?= $active == 'user' ? "active" : "" ?>" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <?= $user['nama_lengkap']; ?>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
                                             <ul class="list-unstyled">
                                                 <li><a href="<?= base_url("user"); ?>">Profil Pengguna</a></li>
+                                                <li><a href="<?= base_url("perizinan/list_perizinan"); ?>">Daftar Pengajuan</a></li>
+                                                <li><a href="<?= base_url("perizinan"); ?>">Lakukan Pengajuan</a></li>
                                                 <li><a href="<?= base_url("auth/logout"); ?>">Log out</a></li>
-                                                <li><a href="<?= base_url("perizinan"); ?>">Status Pengajuan</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -109,7 +106,7 @@
     <footer>
         <!-- Footer konten -->
         <div class="row head-footer py-3">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="widget">
                     <div class="widget-inner">
                         <div class="widget-title-outer">
@@ -122,7 +119,7 @@
                     </div><!-- end inner -->
                 </div><!-- end widget -->
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="widget">
                     <div class="widget-inner">
                         <div class="widget-title-outer">
@@ -161,7 +158,7 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                    &copy; 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
+                    &copy; 2019 Copyright Layanan Desa Cikolelet | All rights reserved.
                 </div>
 
             </div>

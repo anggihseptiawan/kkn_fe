@@ -38,7 +38,7 @@ h2 {
 
 h4 {
 	font-family: var(--serif-font);
-	font-size: calc(var(--base-font-size) * 1);
+	font-size: calc(var(--base-font-size) * 1.2);
 	font-weight: 600;
 }
 
@@ -71,7 +71,11 @@ h5 {
 
 .dropdown-menu {
 	min-width: 15rem;
-	padding: 0.5rem 10px;
+	padding: 0.5rem 15px;
+}
+
+.dropdown-menu li {
+	padding: 1px 0;
 }
 
 .title {
@@ -243,8 +247,8 @@ a.icons {
 	padding: 0 1rem;
 }
 
-a.icons :hover {
-	color: #3aaade;
+a.bolded.active {
+	color: #3aaade !important;
 }
 
 .btn-danger {
@@ -318,6 +322,10 @@ input[type="text"] {
 	text-decoration: none;
 }
 
+main.list_perizinan .card {
+	min-height: 50vh;
+}
+
 footer {
 	padding: 1.5rem 0;
 	margin-top: 1rem;
@@ -351,7 +359,10 @@ footer {
 	background: rgba(58, 170, 222, 0.8);
 }
 .footers {
-	background: rgba(58, 170, 222, 0.6);
+	background: rgba(58, 170, 222, 1);
+}
+a.icons:hover {
+	color: white;
 }
 .widget {
 	margin: 20px 20px 10px;

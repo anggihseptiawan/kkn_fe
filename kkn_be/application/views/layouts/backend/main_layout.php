@@ -34,48 +34,41 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+          <i class="fas fa-fw fa-tachometer-alt"></i>
         </div>
         <div class="sidebar-brand-text mx-3">CIKOLELET</div>
       </a>
 
       <!-- Divider -->
-      <hr class="sidebar-divider my-0">
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="<?= base_url("/admin/home"); ?>">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
 
       <!-- Heading -->
-      <div class="sidebar-heading">
+      <!-- <div class="sidebar-heading">
         CMS
-      </div>
+      </div> -->
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link" href="<?= base_url("admin/beranda") ?>">
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="<? //= base_url("admin/beranda") 
+                                  ?>">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Beranda</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url("admin/home") ?>">
+        <a class="nav-link" href="<? //= base_url("admin/sk") 
+                                  ?>">
           <i class="fas fa-fw fa-file-signature"></i>
           <span>Surat Keterangan</span></a>
       </li>
 
 
       <li class="nav-item">
-        <a class="nav-link" href="<?= base_url("admin/home") ?>">
+        <a class="nav-link" href="<? //= base_url("admin/sr") 
+                                  ?>">
           <i class="fas fa-fw fa-file-signature"></i>
           <span>Surat Rekomendasi</span></a>
-      </li>
+      </li> -->
 
       <!-- Divider -->
       <hr class="sidebar-divider mt-2">
@@ -85,15 +78,22 @@
         Administrasi
       </div>
 
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item <?= $active == 'home' ? "active" : ""; ?>">
+        <a class="nav-link" href="<?= base_url("/admin/home"); ?>">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+
       <!-- Panduan, berisi tentang file-file contoh surat perizinan untuk pengguna-->
-      <li class="nav-item">
+      <li class="nav-item <?= $active == 'panduan' ? "active" : ""; ?>">
         <a class="nav-link" href="<?= base_url("admin/panduan") ?>">
           <i class="fas fa-fw fa-book"></i>
           <span>Panduan</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item">
+      <li class="nav-item <?= $active == 'perizinan' ? "active" : ""; ?>">
         <a class="nav-link" href="<?= base_url("admin/perizinan") ?>">
           <i class="fas fa-fw fa-file-signature"></i>
           <span>Permohonan Perizinan</span></a>
@@ -122,39 +122,13 @@
           </button>
 
           <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>
+          
 
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
             <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </li>
+           
 
 
             <div class="topbar-divider d-none d-sm-block"></div>
@@ -162,7 +136,7 @@
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $user['name']; ?></span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
               </a>
               <!-- Dropdown - User Information -->

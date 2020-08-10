@@ -31,7 +31,7 @@
             <nav class="col-md-12 navbar navbar-blog  navbar-expand-lg navbar-light " id="myHeader">
                 <img class="logoku" src="<?= base_url("assets") ?>/img/logo2.png" alt="Logo Cikolelet">
 
-                <a class="bolded pl-10" href="#">CIKOLELET</a>
+                <a class="bolded pl-10" href="<?= base_url("/"); ?>">CIKOLELET</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menux">
                     <span class="navbar-toggler-icon"></span>
@@ -55,69 +55,67 @@
     <?php $this->load->view($page); ?>
 
 
-    <!-- footer awal -->
+
+
+       <!-- footer awal -->
     <footer>
         <!-- Footer konten -->
-        <div class="row head-footer">
-            <div class="col-md-4">
+        <div class="row head-footer py-3">
+            <div class="col-md-6">
                 <div class="widget">
                     <div class="widget-inner">
                         <div class="widget-title-outer">
                             <h3 class="widget-title">Tentang Desa Cikolelet</h3>
                         </div>
-                        <p id="tentang" class="text-left">Cikolelet adalah sebuah desa di wilayah kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="widget">
-                    <div class="widget-inner">
-                        <div class="widget-title-outer">
-                            <h3 class="widget-title">Cikolelet</h3>
+                        <div class="d-flex">
+                            <img class="logo-footer" src="<?= base_url("assets") ?>/img/logo2.png" alt="Logo Cikolelet">
+                            <p id="tentang" class="text-left">Cikolelet adalah sebuah desa di wilayah kecamatan Cinangka Kabupaten Serang, Banten, Indonesia.</p>
                         </div>
-                        <img class="logo-footer " src="<?= base_url("assets") ?>/img/logo2.png" alt="Logo Cikolelet">
-                    </div>
-                </div>
+                    </div><!-- end inner -->
+                </div><!-- end widget -->
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="widget">
                     <div class="widget-inner">
                         <div class="widget-title-outer">
                             <h3 class="widget-title">Alamat Desa</h3>
                         </div>
                         <div id="alamatdesa" class="text-left">
-                            <p>Desa Cikolelet, kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
-                            <p>021000000.</p>
+                            <p class="mb-0">Desa Cikolelet, kecamatan Cinangka Kabupaten Serang, Banten, 61484.</p>
+                            <p class="mb-0">021000000.</p>
                             <a href="mailto:info@Cikolelet.desa.id">info@Cikolelet.desa.id</a>
                         </div>
-                    </div>
-                </div>
+                    </div><!-- end inner -->
+                </div><!-- end widget -->
             </div>
         </div>
 
 
-        <div class="row footers">
+        <div class="row footers py-3">
 
-            <!-- link sosmed -->
-            <div class="col-md-12 text-center">
-                <div class="social d-flex justify-content-center">
-                    <a href="https:/www.twitter.com" class="icons">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https:/www.facebook.com" class="icons">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https:/www.instagram.com" class="icons">
-                        <i class="fab fa-instagram"></i>
-                        <a href="https:/www.Whatsapp.com" class="icons">
-                            <i class="fab fa-whatsapp"></i>
+            <div class="container-fluid">
+                <!-- link sosmed -->
+                <div class="col-md-12 text-center">
+                    <div class="social d-flex justify-content-center">
+                        <a href="https:/www.twitter.com" class="icons">
+                            <i class="fab fa-twitter"></i>
                         </a>
-                    </a>
-                </div>
-            </div>
+                        <a href="https:/www.facebook.com" class="icons">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https:/www.instagram.com" class="icons">
+                            <i class="fab fa-instagram"></i>
+                            <a href="https:/www.Whatsapp.com" class="icons">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
 
-            <div class="col-md-12 text-center">
-                &copy 2019 Copyright<a class="footer-link link" href="#"> Layanan Desa Cikolelet | All rights reserved.</a>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center">
+                    &copy; 2019 Copyright Layanan Desa Cikolelet | All rights reserved.
+                </div>
+
             </div>
 
             <!-- link sosmed akhir   -->
